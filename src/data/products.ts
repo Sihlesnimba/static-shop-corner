@@ -1,4 +1,3 @@
-
 export interface Product {
   id: number;
   name: string;
@@ -43,10 +42,10 @@ export const products: Product[] = [
   },
   {
     id: 5,
-    name: "Wireless Earbuds",
-    description: "True wireless earbuds with noise cancellation and long battery life.",
-    price: 1709.99,
-    image: "https://images.unsplash.com/photo-1606220588913-b3aacb4d2f37?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    name: "MacBook Pro 14-inch",
+    description: "Powerful laptop with M2 Pro chip, 14-inch Liquid Retina XDR display, and all-day battery life.",
+    price: 39999.99,
+    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     category: "electronics"
   },
   {
